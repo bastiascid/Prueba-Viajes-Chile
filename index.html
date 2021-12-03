@@ -147,23 +147,34 @@
 		
 		<h3 id="contactos" class="contacto">Contacto</h3>
 		<hr>
-		<form action="/my-handling-form-page" method="post">
-		<ul>
-			<li>
-				<label for="name" p class="textos" >Nombre:</label>
-				<input type="text" id="name" name="user_name">
-			</li>
-			<li>
-				<label for="mail" p class="textos" >Correo electrónico:</label>
-				<input type="email" id="mail" name="user_mail">
-			</li>
-			<li>
-				<label for="msg" p class="textos" >Mensaje:</label>
-				<textarea id="msg" name="user_message"></textarea>
-			</li>
-		</ul>
-	</form>
+				<form action="/my-handling-form-page" method="post">
+			<ul>
+				<li>
+					<label for="name" p class="textos" >Nombre:</label>
+					<div>
+						<input type="text" id="name" name="user_name">
+					</div>
+					
+				</li>
+				<li>
+					<label for="mail" p class="textos" >E-Mail:</label>
+					<div>
+						<input type="email" id="mail" name="user_mail">
+					</div>
+					
+				</li>
+				<li>
+					<label for="msg" p class="textos" >Mensaje:</label>
+					<div>
+						<textarea id="msg" name="user_message"></textarea>
+					</div>
 
+					<div class>
+						<button type="button" class="btn btn-outline-secondary text-nowrap " data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
+
+				</li>
+			</ul>
+		</form>
 	</section>
 
 	<footer id="footer" class="container-fluid  d-md-block  bg-info section-icons fondo-footer">
