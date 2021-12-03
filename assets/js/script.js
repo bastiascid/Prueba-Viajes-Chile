@@ -2,15 +2,15 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
 
   $('#quienesomos').click(function(){
-      alert("Somos la mejor empresa de viajes")
+      alert("La Mejor Agencia del País")
   });
 
   $('#destacados').click(function(){
-      alert("Comparte en los mejores lugares de Chile")
+      alert("Comparte con tus Amigos")
   });
   
   $('#contactos').click(function(){
-      alert("Que esperas para ser parte de nosotros?")
+      alert("Escribenos y se parte de una gran experiencia!")
   });
   
   $('.titulo1').click(function(){
@@ -55,7 +55,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 $("#quienesomos").hover(function() {
-  $(this).css('cursor','pointer').attr('title', 'Los mejores viajes estan junto a nosotros');
+  $(this).css('cursor','pointer').attr('title', 'EL Mejor viaje de tu Vida');
 }, function() {
   $(this).css('cursor','auto');
 });
